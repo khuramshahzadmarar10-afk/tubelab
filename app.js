@@ -149,18 +149,30 @@ $('#heroSearch').addEventListener('submit', (e) => { e.preventDefault(); const v
 
 /* ---------- Content Studio ---------- */
 function buildPackage(topic) {
-  const raw = topic.trim(); const T = titleCase(raw);
+  const raw = topic.trim().replace(/\?+$/, ''); const T = titleCase(raw);
   const titles = [];
   const low = raw.toLowerCase();
-  if (QUESTION_WORDS.includes(low.split(' ')[0])) titles.push({ t: T.replace(/\?*$/, '') + '?', p: 'The searched question, word for word' });
-  titles.push(
-    { t: 'Why ' + T + ' Is Not What You Think', p: 'Curiosity gap + familiar subject' },
-    { t: T + ': The Untold Story', p: 'Story promise' },
-    { t: 'How ' + T + ' Changed Everything', p: 'How + consequence' },
-    { t: 'The Hidden Truth Behind ' + T, p: 'Secret / reveal' },
-    { t: '7 Things About ' + T + ' Nobody Tells You', p: 'Number + insider angle' },
-    { t: 'What Really Happened With ' + T, p: 'Mystery / investigation' }
-  );
+  if (QUESTION_WORDS.includes(low.split(' ')[0])) {
+    const core = T.replace(/^(How|What|Why|When|Where|Who|Can|Does|Is|Will|Which)\s+/i, '');
+    const qWord = T.split(' ')[0];
+    titles.push(
+      { t: T + '?', p: 'The searched question, word for word' },
+      { t: T + ': The Untold Story', p: 'Story promise' },
+      { t: 'The Hidden Truth Behind ' + T, p: 'Secret / reveal' },
+      { t: core + ' — ' + qWord + '?', p: 'Short punchy variant' },
+      { t: 'Exposed: ' + T, p: 'Investigation angle' },
+      { t: T + ' — The Full Story', p: 'Complete account' }
+    );
+  } else {
+    titles.push(
+      { t: 'Why ' + T + ' Is Not What You Think', p: 'Curiosity gap + familiar subject' },
+      { t: T + ': The Untold Story', p: 'Story promise' },
+      { t: 'How ' + T + ' Changed Everything', p: 'How + consequence' },
+      { t: 'The Hidden Truth Behind ' + T, p: 'Secret / reveal' },
+      { t: '7 Things About ' + T + ' Nobody Tells You', p: 'Number + insider angle' },
+      { t: 'What Really Happened With ' + T, p: 'Mystery / investigation' }
+    );
+  }
   const hooks = [
     `This is ${raw} — and in the next ten seconds you'll see the one detail almost everyone gets wrong about it.`,
     `Everything you think you know about ${raw} is missing one fact. Here it is on screen — watch what it changes.`,
