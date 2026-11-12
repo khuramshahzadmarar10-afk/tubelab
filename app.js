@@ -271,7 +271,12 @@ $('#mkBgUrl').addEventListener('change', (e) => { if (e.target.value.trim()) loa
 $('#mkAiGen').addEventListener('click', () => {
   const st = $('#mkAiStatus'); const prompt = $('#mkAiPrompt').value.trim();
   if (!prompt) { st.textContent = 'First describe the scene above — what should be in the picture?'; return; }
-  const full = prompt + ', cinematic YouTube thumbnail background, one dominant subject filling the frame, dramatic lighting, strong contrast, rich detail, no text, no letters, no watermark';
+  const DARK_WORDS = ['horror', 'ghost', 'scary', 'dark', 'death', 'dead', 'murder', 'mystery', 'haunted', 'demon', 'evil', 'nightmare', 'killer', 'war', 'battle', 'blood', 'curse', 'vanished', 'secret', 'hidden', 'empire', 'crime', 'mafia', 'prison', 'disaster', 'volcano', 'shark', 'predator', 'attack', 'survival', 'dragon', 'monster'];
+  const mood = $('#mkMood').value;
+  const looksDark = DARK_WORDS.some(w => prompt.toLowerCase().includes(w));
+  const look = mood === 'auto' ? (looksDark ? 'dark' : 'bright') : mood;
+  const lookText = look === 'dark' ? 'moody dramatic lighting, deep shadows, cinematic contrast' : 'bright daylight, vivid fresh colors, clean well-lit scene, cheerful and clear';
+  const full = prompt + ', cinematic YouTube thumbnail background, one dominant subject filling the frame, ' + lookText + ', rich detail, no text, no letters, no watermark';
   const seed = Math.floor(Math.random() * 999999);
   const url = 'https://image.pollinations.ai/prompt/' + encodeURIComponent(full) + '?width=1280&height=720&seed=' + seed + '&nologo=true&model=flux';
   st.textContent = 'AI is drawing your background… this can take 20–40 seconds.';
@@ -307,7 +312,7 @@ function drawThumb() {
   const dark = $('#mkDark').value / 100;
   if (dark > 0) { ctx.fillStyle = 'rgba(0,0,0,' + dark + ')'; ctx.fillRect(0, 0, W, H); }
   const vg = ctx.createRadialGradient(W / 2, H / 2, H * 0.35, W / 2, H / 2, H * 0.95);
-  vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(0,0,0,0.45)');
+  vg.addColorStop(0, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(0,0,0,0.28)');
   ctx.fillStyle = vg; ctx.fillRect(0, 0, W, H);
   const text = ($('#mkText').value || '').trim();
   if (text) {
@@ -606,6 +611,15 @@ $('#dataWipe').addEventListener('click', () => {
   ckItems = []; renderChecker(); renderChannels(); renderCompetitors(); loadKeys();
   $('#keysStatus').textContent = 'All TubeLab data cleared from this browser.';
 });
+
+/* ---------- Theme (light / dark) ---------- */
+function paintThemeBtn() { const b = $('#themeToggle'); if (b) b.textContent = document.documentElement.dataset.theme === 'light' ? '🌙 Dark' : '☀ Light'; }
+if (store.get('theme', 'dark') === 'light') document.documentElement.dataset.theme = 'light';
+$('#themeToggle').addEventListener('click', () => {
+  const next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+  document.documentElement.dataset.theme = next; store.set('theme', next); paintThemeBtn();
+});
+paintThemeBtn();
 
 /* ---------- init ---------- */
 loadKeys();

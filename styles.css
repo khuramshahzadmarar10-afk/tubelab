@@ -2,8 +2,15 @@
   --bg:#0c0c0f; --panel:#15151a; --panel2:#1b1b22; --line:#26262f;
   --ink:#f4f2ec; --dim:#a7a49b; --faint:#6f6c64;
   --red:#e62117; --red-hot:#ff3b30; --gold:#e8b34b; --green:#3ecf6e;
+  --bar:rgba(12,12,15,.92);
   --radius:14px;
 }
+[data-theme="light"]{
+  --bg:#f4f2ec; --panel:#ffffff; --panel2:#ebe9e0; --line:#d5d1c4;
+  --ink:#17171c; --dim:#55534c; --faint:#8a877d;
+  --bar:rgba(244,242,236,.94);
+}
+.theme-btn{background:var(--panel2);border:1px solid var(--line);color:var(--ink);border-radius:9px;padding:7px 11px;font-size:13px;font-weight:600;white-space:nowrap}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-size:16px;line-height:1.55}
@@ -13,7 +20,7 @@ button{font-family:inherit;cursor:pointer}
 input,select,textarea{font-family:inherit}
 
 /* top bar */
-.topbar{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:18px;padding:10px 18px;background:rgba(12,12,15,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.topbar{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:18px;padding:10px 18px;background:var(--bar);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .brand{font-family:Archivo;font-weight:900;font-size:22px;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:8px;white-space:nowrap}
 .brand em{font-style:normal;color:var(--red-hot)}
 .brand-mark{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:9px;background:var(--red);color:#fff;font-size:13px}

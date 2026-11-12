@@ -16,7 +16,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23e62117'/%3E%3Cpath d='M26 20l18 12-18 12z' fill='white'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20261113c">
+<link rel="stylesheet" href="styles.css?v=20261113d">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebApplication","name":"TubeLab","url":"https://khuramshahzadmarar10-afk.github.io/tubelab/","applicationCategory":"BusinessApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Free YouTube growth tools: niche finder, keyword finder, title and hook studio, thumbnail maker and checker, channel tracker and competitor watch."}
 </script>
@@ -34,6 +34,7 @@
     <button data-nav="competitors">Competitors</button>
     <button data-nav="settings" class="nav-gear" title="Settings">⚙</button>
   </nav>
+  <button id="themeToggle" class="theme-btn" title="Light / dark look">☀ Light</button>
 </header>
 
 <main>
@@ -111,6 +112,13 @@
           <label class="fld"><span>AI background — describe the scene, AI draws it here</span>
             <textarea id="mkAiPrompt" rows="2" placeholder="e.g. a giant dragon flying over a burning medieval castle, storm sky, cinematic"></textarea>
           </label>
+          <label class="fld"><span>Look — bright or dark?</span>
+            <select id="mkMood">
+              <option value="auto" selected>Match the topic (auto)</option>
+              <option value="bright">Bright &amp; colorful</option>
+              <option value="dark">Dark &amp; dramatic</option>
+            </select>
+          </label>
           <button class="primary-btn" id="mkAiGen" type="button">Generate AI background</button>
           <p class="mini-note" id="mkAiStatus">Free, no key, no login. One strong subject works best. Not happy? Press again — a new version comes.</p>
         </div>
@@ -149,8 +157,8 @@
           <select id="mkPos"><option value="bottom">Bottom</option><option value="top">Top</option><option value="center">Center</option></select>
         </label>
         <label class="fld check"><input type="checkbox" id="mkBadge" checked> <span>“4K ULTRA HD” badge (top-right)</span></label>
-        <label class="fld"><span>Darken background <b id="mkDarkVal">35%</b></span>
-          <input type="range" id="mkDark" min="0" max="80" value="35">
+        <label class="fld"><span>Darken background <b id="mkDarkVal">15%</b></span>
+          <input type="range" id="mkDark" min="0" max="80" value="15">
         </label>
         <div class="btn-row">
           <button class="primary-btn" id="mkExport">Download PNG</button>
@@ -228,6 +236,6 @@
   <span class="foot-links"><a href="#" data-nav="settings">Settings</a></span>
 </footer>
 
-<script src="app.js?v=20261113c"></script>
+<script src="app.js?v=20261113d"></script>
 </body>
 </html>
