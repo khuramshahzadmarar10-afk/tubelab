@@ -237,7 +237,7 @@ async function aiGenerate(topic) {
     const j = await r.json(); if (!r.ok) throw new Error('OpenRouter: ' + ((j.error && j.error.message) || r.status));
     return j.choices[0].message.content;
   }
-  throw new Error('No AI key saved. Add a Gemini, Groq or OpenRouter key in Settings — the built-in package above works without one.');
+  throw new Error('AI_OFF');
 }
 $('#contentAi').addEventListener('click', async () => {
   const topic = $('#contentTopic').value.trim(); if (!topic) { $('#contentStatus').textContent = 'Type a topic first.'; return; }
@@ -247,7 +247,10 @@ $('#contentAi').addEventListener('click', async () => {
     const text = await aiGenerate(topic);
     st.textContent = 'AI package ready.';
     $('#contentResults').insertAdjacentHTML('beforeend', `<div class="pkg"><h3>AI package</h3><pre class="ai-out">${esc(text)}</pre></div>`);
-  } catch (err) { st.classList.add('err'); st.textContent = err.message; }
+  } catch (err) {
+    if (err.message === 'AI_OFF') { st.classList.remove('err'); st.textContent = 'Done — the built-in package above is complete. The AI writer is an optional extra and stays off; you do not need it.'; }
+    else { st.classList.add('err'); st.textContent = err.message; }
+  }
 });
 
 /* ---------- Thumbnail Maker ---------- */
@@ -265,6 +268,18 @@ function loadMakerImage(src, cors) {
 }
 $('#mkBgFile').addEventListener('change', (e) => { const f = e.target.files[0]; if (!f) return; const r = new FileReader(); r.onload = () => loadMakerImage(r.result, false); r.readAsDataURL(f); });
 $('#mkBgUrl').addEventListener('change', (e) => { if (e.target.value.trim()) loadMakerImage(e.target.value.trim(), true); });
+$('#mkAiGen').addEventListener('click', () => {
+  const st = $('#mkAiStatus'); const prompt = $('#mkAiPrompt').value.trim();
+  if (!prompt) { st.textContent = 'First describe the scene above — what should be in the picture?'; return; }
+  const full = prompt + ', cinematic YouTube thumbnail background, one dominant subject filling the frame, dramatic lighting, strong contrast, rich detail, no text, no letters, no watermark';
+  const seed = Math.floor(Math.random() * 999999);
+  const url = 'https://image.pollinations.ai/prompt/' + encodeURIComponent(full) + '?width=1280&height=720&seed=' + seed + '&nologo=true&model=flux';
+  st.textContent = 'AI is drawing your background… this can take 20–40 seconds.';
+  const img = new Image(); img.crossOrigin = 'anonymous';
+  img.onload = () => { mk.img = img; drawThumb(); st.textContent = 'AI background is on. Add your title text below — or press Generate again for a new version.'; };
+  img.onerror = () => { st.textContent = 'The AI painter did not answer — the connection is slow. Press Generate once more.'; };
+  img.src = url;
+});
 $('#mkScene').addEventListener('change', (e) => { mk.scene = e.target.value || 'cinema'; mk.img = null; drawThumb(); });
 ['mkText', 'mkStyle', 'mkSize', 'mkPos', 'mkBadge', 'mkDark'].forEach(id => $('#' + id).addEventListener('input', drawThumb));
 function coverDraw(ctx, img, W, H) {
