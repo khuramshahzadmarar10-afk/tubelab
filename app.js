@@ -14,8 +14,8 @@ function nav(page) {
   $$('.page').forEach(p => p.classList.toggle('active', p.id === 'page-' + page));
   $$('#mainNav button').forEach(b => b.classList.toggle('active', b.dataset.nav === page));
   window.scrollTo({ top: 0, behavior: 'smooth' });
-  if (page === 'channels') renderChannels();
-  if (page === 'competitors') renderCompetitors();
+  if (page === 'channels') { renderChannels(); loadDataFile(); }
+  if (page === 'competitors') { renderCompetitors(); loadDataFile(); }
   if (page === 'checker') loadMakerHandoff();
 }
 document.addEventListener('click', e => {
@@ -56,10 +56,10 @@ function nicheScore(phrase, rank, siblings, depth) {
   const words = phrase.split(/\s+/).length;
   const demand = Math.max(8, Math.round(100 - rank * (70 / Math.max(1, siblings))));
   const depthScore = Math.min(100, depth * 10);
-  let intent = Math.min(100, words * 16);
+  let intent = words <= 1 ? 10 : Math.min(100, 26 + words * 13);
   if (QUESTION_WORDS.some(w => phrase.startsWith(w))) intent = Math.min(100, intent + 14);
   if (/\d/.test(phrase)) intent = Math.min(100, intent + 8);
-  const opportunity = Math.round(demand * 0.4 + depthScore * 0.3 + intent * 0.3);
+  const opportunity = Math.round(demand * 0.35 + depthScore * 0.25 + intent * 0.4);
   return { demand, depth: depthScore, intent, opportunity };
 }
 $('#nicheForm').addEventListener('submit', async (e) => {
@@ -428,13 +428,50 @@ const PROXIES = [
   (u) => 'https://api.cors.lol/?url=' + encodeURIComponent(u),
   (u) => 'https://api.allorigins.win/raw?url=' + encodeURIComponent(u)
 ];
-async function fetchText(url) {
+async function fetchText(url, timeoutMs) {
   for (const wrap of PROXIES) {
-    try { const r = await fetch(wrap(url)); if (r.ok) { const t = await r.text(); if (t && t.length > 40) return t; } } catch (e) {}
+    try {
+      const ctl = new AbortController(); const to = setTimeout(() => ctl.abort(), timeoutMs || 9000);
+      const r = await fetch(wrap(url), { signal: ctl.signal }); clearTimeout(to);
+      if (r.ok) { const t = await r.text(); if (t && t.length > 40) return t; }
+    } catch (e) {}
   }
   throw new Error('Feed unreachable right now');
 }
+async function fetchViaRss2Json(channelId) {
+  const feed = 'https://www.youtube.com/feeds/videos.xml?channel_id=' + channelId;
+  const ctl = new AbortController(); const to = setTimeout(() => ctl.abort(), 12000);
+  const r = await fetch('https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(feed), { signal: ctl.signal });
+  clearTimeout(to);
+  if (!r.ok) throw new Error('rss2json ' + r.status);
+  const j = await r.json();
+  if (j.status !== 'ok' || !j.items) throw new Error('rss2json empty');
+  return {
+    name: (j.feed && j.feed.title) || '',
+    videos: j.items.slice(0, 8).map(it => ({ title: it.title || '', link: it.link || '', published: (it.pubDate || '').replace(' ', 'T') + 'Z', thumb: it.thumbnail || '', views: null })),
+    fetchedAt: Date.now()
+  };
+}
+/* Same-origin data file, refreshed daily by the TubeLab data job — zero proxies involved. */
+let dataFileLoaded = false;
+async function loadDataFile() {
+  if (dataFileLoaded) return; dataFileLoaded = true;
+  try {
+    const r = await fetch('channels-data.json', { cache: 'no-store' });
+    if (!r.ok) return;
+    const j = await r.json();
+    Object.entries(j.channels || {}).forEach(([id, data]) => {
+      const cached = store.get('feed_' + id, null);
+      if (!cached || (data.fetchedAt || 0) > (cached.fetchedAt || 0)) store.set('feed_' + id, data);
+    });
+    renderChannels(); renderCompetitors();
+  } catch (e) {}
+}
 async function fetchChannelFeed(channelId) {
+  /* Prefer the full RSS (carries view counts) via proxy chain; fall back to rss2json (no view counts). */
+  try { return await fetchChannelFeedRss(channelId); } catch (e) { return await fetchViaRss2Json(channelId); }
+}
+async function fetchChannelFeedRss(channelId) {
   const xml = await fetchText('https://www.youtube.com/feeds/videos.xml?channel_id=' + channelId);
   const doc = new DOMParser().parseFromString(xml, 'text/xml');
   const name = (doc.querySelector('feed > title') || {}).textContent || '';
@@ -518,9 +555,12 @@ $('#compForm').addEventListener('submit', async (e) => {
     if (!id) { st.classList.add('err'); st.textContent = 'Could not resolve that. Paste the channel ID (starts with UC) from the channel\'s About / share link.'; return; }
     const list = store.get('competitors', []);
     if (!list.some(c => c.id === id)) { list.push({ id, name: id }); store.set('competitors', list); }
-    inp.value = ''; st.textContent = 'Loading its latest videos…';
-    await refreshChannel(id, 'comp'); st.textContent = 'Watching it now — breakouts are flagged in red.'; renderCompetitors();
-  } catch (err) { st.classList.add('err'); st.textContent = 'YouTube did not answer just now. Try again in a minute.'; }
+    inp.value = ''; renderCompetitors();
+    st.textContent = 'Added — loading its latest videos…';
+    try { await refreshChannel(id, 'comp'); st.textContent = 'Watching it now — breakouts are flagged in red.'; }
+    catch (err2) { st.textContent = 'It is on your watchlist. Its videos could not load just now — hit Refresh on its card in a moment.'; }
+    renderCompetitors();
+  } catch (err) { st.classList.add('err'); st.textContent = 'That channel could not be resolved. Paste the channel ID (starts with UC) from its About / share link.'; }
 });
 
 /* ---------- Settings ---------- */
@@ -541,3 +581,4 @@ loadKeys();
 drawThumb();
 renderChannels();
 renderCompetitors();
+loadDataFile();
