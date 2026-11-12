@@ -276,7 +276,7 @@ $('#mkAiGen').addEventListener('click', () => {
   const url = 'https://image.pollinations.ai/prompt/' + encodeURIComponent(full) + '?width=1280&height=720&seed=' + seed + '&nologo=true&model=flux';
   st.textContent = 'AI is drawing your background… this can take 20–40 seconds.';
   const img = new Image(); img.crossOrigin = 'anonymous';
-  img.onload = () => { mk.img = img; drawThumb(); st.textContent = 'AI background is on. Add your title text below — or press Generate again for a new version.'; };
+  img.onload = () => { img._aiCrop = true; mk.img = img; drawThumb(); st.textContent = 'AI background is on. Add your title text below — or press Generate again for a new version.'; };
   img.onerror = () => { st.textContent = 'The AI painter did not answer — the connection is slow. Press Generate once more.'; };
   img.src = url;
 });
@@ -289,7 +289,11 @@ function coverDraw(ctx, img, W, H) {
 function drawThumb() {
   const cv = $('#mkCanvas'); if (!cv) return; const ctx = cv.getContext('2d'); const W = 1280, H = 720;
   $('#mkSizeVal').textContent = $('#mkSize').value; $('#mkDarkVal').textContent = $('#mkDark').value + '%';
-  if (mk.img) coverDraw(ctx, mk.img, W, H);
+  if (mk.img && mk.img._aiCrop) {
+    const s = Math.max(W / mk.img.width, H / mk.img.height) * 1.13;
+    ctx.drawImage(mk.img, (W - mk.img.width * s) / 2, 0, mk.img.width * s, mk.img.height * s);
+  }
+  else if (mk.img) coverDraw(ctx, mk.img, W, H);
   else {
     const [a, b] = SCENES[mk.scene] || SCENES.cinema;
     const g = ctx.createLinearGradient(0, 0, W, H); g.addColorStop(0, a); g.addColorStop(1, b);
