@@ -272,11 +272,14 @@ $('#mkAiGen').addEventListener('click', () => {
   const st = $('#mkAiStatus'); const prompt = $('#mkAiPrompt').value.trim();
   if (!prompt) { st.textContent = 'First describe the scene above — what should be in the picture?'; return; }
   const DARK_WORDS = ['horror', 'ghost', 'scary', 'dark', 'death', 'dead', 'murder', 'mystery', 'haunted', 'demon', 'evil', 'nightmare', 'killer', 'war', 'battle', 'blood', 'curse', 'vanished', 'secret', 'hidden', 'empire', 'crime', 'mafia', 'prison', 'disaster', 'volcano', 'shark', 'predator', 'attack', 'survival', 'dragon', 'monster'];
+  const BRIGHT_WORDS = ['happy', 'kids', 'children', 'child', 'smiling', 'smile', 'fun', 'funny', 'colorful', 'colourful', 'science fair', 'school', 'cartoon', 'cute', 'birthday', 'garden', 'beach', 'sunny', 'picnic', 'toy', 'game', 'baby', 'puppy', 'kitten', 'festival', 'party', 'dance', 'cooking', 'recipe', 'travel', 'holiday', 'christmas', 'eid'];
+  const low = prompt.toLowerCase();
   const mood = $('#mkMood').value;
-  const looksDark = DARK_WORDS.some(w => prompt.toLowerCase().includes(w));
-  const look = mood === 'auto' ? (looksDark ? 'dark' : 'bright') : mood;
+  const looksBright = BRIGHT_WORDS.some(w => low.includes(w));
+  const looksDark = DARK_WORDS.some(w => low.includes(w));
+  const look = mood === 'auto' ? (looksBright ? 'bright' : looksDark ? 'dark' : 'bright') : mood;
   const lookText = look === 'dark' ? 'moody dramatic lighting, deep shadows, cinematic contrast' : 'bright daylight, vivid fresh colors, clean well-lit scene, cheerful and clear';
-  const full = prompt + ', cinematic YouTube thumbnail background, one dominant subject filling the frame, ' + lookText + ', rich detail, no text, no letters, no watermark';
+  const full = (look === 'bright' ? 'Bright, cheerful, sunlit image: ' : '') + prompt + ', cinematic YouTube thumbnail background, one dominant subject filling the frame, ' + lookText + ', rich detail, no text, no letters, no watermark' + (look === 'bright' ? ', absolutely no dark background, no night scene, no gloomy mood' : '');
   const seed = Math.floor(Math.random() * 999999);
   const url = 'https://image.pollinations.ai/prompt/' + encodeURIComponent(full) + '?width=1280&height=720&seed=' + seed + '&nologo=true&model=flux';
   st.textContent = 'AI is drawing your background… this can take 20–40 seconds.';
