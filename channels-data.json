@@ -1,9 +1,23 @@
 {
- "updatedAt": "2026-11-14T13:28:25.019569+00:00",
+ "updatedAt": "2026-11-15T13:28:29.035881+00:00",
  "channels": {
   "UC0muN9k-ye9io1iKFdYXK6A": {
    "name": "Cinematic Realms",
    "videos": [
+    {
+     "title": "Dragon's Judgment | Hollywood Movie",
+     "link": "https://www.youtube.com/watch?v=Pc5feSgAwS8",
+     "published": "2026-11-14T14:30:34+00:00",
+     "thumb": "https://i1.ytimg.com/vi/Pc5feSgAwS8/hqdefault.jpg",
+     "views": 9
+    },
+    {
+     "title": "Yuba County Five: 5 Men Vanished, 1 Never Found 🔍",
+     "link": "https://www.youtube.com/shorts/29899j7CVU4",
+     "published": "2026-11-14T14:01:21+00:00",
+     "thumb": "https://i3.ytimg.com/vi/29899j7CVU4/hqdefault.jpg",
+     "views": 70
+    },
     {
      "title": "The 600-Year-Old Book Nobody Can Read",
      "link": "https://www.youtube.com/shorts/jg--eiqYHcI",
@@ -16,7 +30,7 @@
      "link": "https://www.youtube.com/shorts/Syf6Q3cKtn8",
      "published": "2026-11-11T14:00:23+00:00",
      "thumb": "https://i4.ytimg.com/vi/Syf6Q3cKtn8/hqdefault.jpg",
-     "views": 60
+     "views": 61
     },
     {
      "title": "Battle of Britain 1940: How Hitler Lost the War in the Skies",
@@ -30,14 +44,14 @@
      "link": "https://www.youtube.com/shorts/81hb5d_ZYX4",
      "published": "2026-11-09T14:00:23+00:00",
      "thumb": "https://i1.ytimg.com/vi/81hb5d_ZYX4/hqdefault.jpg",
-     "views": 74
+     "views": 69
     },
     {
      "title": "Kingdom Beneath the Moon | Official Trailer",
      "link": "https://www.youtube.com/watch?v=WOk-JWmNzYQ",
      "published": "2026-11-07T15:00:18+00:00",
      "thumb": "https://i4.ytimg.com/vi/WOk-JWmNzYQ/hqdefault.jpg",
-     "views": 116
+     "views": 120
     },
     {
      "title": "The Zodiac Killer's Code Took 51 Years to Crack 🔍",
@@ -45,61 +59,54 @@
      "published": "2026-11-06T02:06:26+00:00",
      "thumb": "https://i1.ytimg.com/vi/LltXL_1GYy8/hqdefault.jpg",
      "views": 57
-    },
-    {
-     "title": "Rescue A Girl's Desperate Plea to Save Her Father Trapped in the Snowy Mountains",
-     "link": "https://www.youtube.com/watch?v=hBSoR5e9HpE",
-     "published": "2026-11-05T16:00:22+00:00",
-     "thumb": "https://i1.ytimg.com/vi/hBSoR5e9HpE/hqdefault.jpg",
-     "views": 299
-    },
-    {
-     "title": "The Black Dahlia Murder Was Never Solved 🔍",
-     "link": "https://www.youtube.com/shorts/9sc3wsQfVUQ",
-     "published": "2026-11-04T13:55:07+00:00",
-     "thumb": "https://i2.ytimg.com/vi/9sc3wsQfVUQ/hqdefault.jpg",
-     "views": 133
     }
    ],
-   "fetchedAt": 1794662906189
+   "fetchedAt": 1794749310341
   },
   "UCVWdAu0wzQ_ahxjKa1BPI3Q": {
    "name": "Invisible Empires",
    "videos": [
     {
+     "title": "¿Quién Es el Dueño de Telefónica? El Estado, los Saudíes y tu Móvil",
+     "link": "https://www.youtube.com/watch?v=Gax0TyTrxgM",
+     "published": "2026-11-14T14:30:18+00:00",
+     "thumb": "https://i4.ytimg.com/vi/Gax0TyTrxgM/hqdefault.jpg",
+     "views": 1
+    },
+    {
      "title": "La Familia Areces: La Guerra por El Corte Inglés",
      "link": "https://www.youtube.com/watch?v=WsGtrzBeBgY",
      "published": "2026-11-13T14:30:01+00:00",
      "thumb": "https://i4.ytimg.com/vi/WsGtrzBeBgY/hqdefault.jpg",
-     "views": 4
+     "views": 34
     },
     {
      "title": "La Familia Botín: El Imperio Invisible detrás de Banco Santander",
      "link": "https://www.youtube.com/watch?v=YJLc7q4-gz8",
      "published": "2026-11-12T14:30:29+00:00",
      "thumb": "https://i2.ytimg.com/vi/YJLc7q4-gz8/hqdefault.jpg",
-     "views": 10
+     "views": 12
     },
     {
      "title": "El Dueño de Mercadona: La Historia Secreta de Juan Roig y su Imperio Invisible",
      "link": "https://www.youtube.com/watch?v=gdh5pqOv5D8",
      "published": "2026-11-11T14:30:29+00:00",
      "thumb": "https://i4.ytimg.com/vi/gdh5pqOv5D8/hqdefault.jpg",
-     "views": 17
+     "views": 20
     },
     {
      "title": "La Historia de Bimbo en España: El Otro Bimbo que México Perdió 47 Años",
      "link": "https://www.youtube.com/watch?v=fof0oFQXRYQ",
      "published": "2026-11-10T01:30:34+00:00",
      "thumb": "https://i3.ytimg.com/vi/fof0oFQXRYQ/hqdefault.jpg",
-     "views": 42
+     "views": 48
     },
     {
      "title": "Amancio Ortega: La Historia del Dueño de Zara, de Repartidor a Hombre Más Rico del Mundo",
      "link": "https://www.youtube.com/watch?v=fBrdPvgRWvw",
      "published": "2026-11-07T19:30:01+00:00",
      "thumb": "https://i3.ytimg.com/vi/fBrdPvgRWvw/hqdefault.jpg",
-     "views": 40
+     "views": 44
     },
     {
      "title": "La Historia de Bimbo Completa: La Familia Dueña del Pan del Mundo",
@@ -114,20 +121,20 @@
      "published": "2026-10-31T13:08:18+00:00",
      "thumb": "https://i1.ytimg.com/vi/8nroMC81H4I/hqdefault.jpg",
      "views": 26
-    },
-    {
-     "title": "The $2 Stamp That Stole $126 Million",
-     "link": "https://www.youtube.com/watch?v=mlJqCin3iLo",
-     "published": "2026-10-24T14:09:32+00:00",
-     "thumb": "https://i2.ytimg.com/vi/mlJqCin3iLo/hqdefault.jpg",
-     "views": 3
     }
    ],
-   "fetchedAt": 1794662906737
+   "fetchedAt": 1794749311138
   },
   "UCofH-WClOiS0hPkilRgKgNg": {
    "name": "Lost Chapters",
    "videos": [
+    {
+     "title": "The Battle of Lepanto 1571 | The Day Europe Was Saved",
+     "link": "https://www.youtube.com/watch?v=4Ee6r1RPEZ0",
+     "published": "2026-11-14T14:30:08+00:00",
+     "thumb": "https://i1.ytimg.com/vi/4Ee6r1RPEZ0/hqdefault.jpg",
+     "views": 0
+    },
     {
      "title": "The Medici Documentary | The Bankers Who Created the Renaissance",
      "link": "https://www.youtube.com/watch?v=dGEC_HSkLZ0",
@@ -164,11 +171,18 @@
      "views": 19
     }
    ],
-   "fetchedAt": 1794662907395
+   "fetchedAt": 1794749312032
   },
   "UCSP5logpZlbjlj-ROsLoLEA": {
    "name": "Sampoorn Itihas",
    "videos": [
+    {
+     "title": "Gandum Ka Safar | Mitti Se Roti Tak Ki Kahani",
+     "link": "https://www.youtube.com/watch?v=Easj1lqEUuw",
+     "published": "2026-11-14T14:00:40+00:00",
+     "thumb": "https://i2.ytimg.com/vi/Easj1lqEUuw/hqdefault.jpg",
+     "views": 0
+    },
     {
      "title": "Mughal Empire History in Hindi | The Entire History of Mughal Empire 1526 – 1857",
      "link": "https://www.youtube.com/watch?v=OzC0eZ56jP8",
@@ -195,7 +209,7 @@
      "link": "https://www.youtube.com/watch?v=jDzyzsN0swE",
      "published": "2026-11-10T12:30:04+00:00",
      "thumb": "https://i3.ytimg.com/vi/jDzyzsN0swE/hqdefault.jpg",
-     "views": 2
+     "views": 3
     },
     {
      "title": "Roman Empire History in Hindi | The Entire History of Roman Empire 753 BC – 1453 AD",
@@ -212,11 +226,18 @@
      "views": 0
     }
    ],
-   "fetchedAt": 1794662908108
+   "fetchedAt": 1794749312734
   },
   "UCoUlpDSqRha6LFGOdXy0kqQ": {
    "name": "Apex Depths",
    "videos": [
+    {
+     "title": "Why You'd Never Want To Meet A Humboldt Squid",
+     "link": "https://www.youtube.com/watch?v=jtpdQysx2H4",
+     "published": "2026-11-14T14:30:03+00:00",
+     "thumb": "https://i3.ytimg.com/vi/jtpdQysx2H4/hqdefault.jpg",
+     "views": 0
+    },
     {
      "title": "Why You'd Never Want To Meet A Saltwater Crocodile",
      "link": "https://www.youtube.com/watch?v=Y3Z0XkRKCpU",
@@ -253,11 +274,18 @@
      "views": 0
     }
    ],
-   "fetchedAt": 1794662908785
+   "fetchedAt": 1794749313335
   },
   "UCmWqX8VwfWmtlxZIOnSLsLw": {
    "name": "Space Files",
    "videos": [
+    {
+     "title": "Voyager 1 Is One Light-Day Away — And NASA Wants the World to Shine",
+     "link": "https://www.youtube.com/watch?v=dwgdGXnp9m8",
+     "published": "2026-11-14T14:30:09+00:00",
+     "thumb": "https://i1.ytimg.com/vi/dwgdGXnp9m8/hqdefault.jpg",
+     "views": 1
+    },
     {
      "title": "Why Does Venus Spin Backwards? Nobody Knows for Sure",
      "link": "https://www.youtube.com/watch?v=geYKHsmiE14",
@@ -284,7 +312,7 @@
      "link": "https://www.youtube.com/watch?v=fY4MJ4M88PA",
      "published": "2026-11-09T17:00:24+00:00",
      "thumb": "https://i3.ytimg.com/vi/fY4MJ4M88PA/hqdefault.jpg",
-     "views": 6
+     "views": 13
     },
     {
      "title": "Why Did Voyager 1 Go Silent for 48 Hours?",
@@ -306,20 +334,20 @@
      "published": "2026-11-04T14:00:11+00:00",
      "thumb": "https://i1.ytimg.com/vi/lYwxH0nuVXg/hqdefault.jpg",
      "views": 9
-    },
-    {
-     "title": "They Spent 378 Days on \"Mars\" — Then Walked Out | NASA CHAPEA Mission 2 Explained",
-     "link": "https://www.youtube.com/watch?v=h3EAQzKKQhc",
-     "published": "2026-11-02T14:03:45+00:00",
-     "thumb": "https://i1.ytimg.com/vi/h3EAQzKKQhc/hqdefault.jpg",
-     "views": 14
     }
    ],
-   "fetchedAt": 1794662909504
+   "fetchedAt": 1794749314060
   },
   "UC47DLUlNUFv2UK2daslvtgw": {
    "name": "Stick & Shadow",
    "videos": [
+    {
+     "title": "Your Life as a Spartan",
+     "link": "https://www.youtube.com/watch?v=6s0M_CFJYDg",
+     "published": "2026-11-14T14:30:26+00:00",
+     "thumb": "https://i3.ytimg.com/vi/6s0M_CFJYDg/hqdefault.jpg",
+     "views": 0
+    },
     {
      "title": "Surviving the Black Death — 1348",
      "link": "https://www.youtube.com/watch?v=mV3IMWCD8K8",
@@ -360,7 +388,7 @@
      "link": "https://www.youtube.com/watch?v=8pSSi152gnI",
      "published": "2026-11-07T14:34:40+00:00",
      "thumb": "https://i1.ytimg.com/vi/8pSSi152gnI/hqdefault.jpg",
-     "views": 8
+     "views": 11
     },
     {
      "title": "You're a Guard in Pompeii — 79 AD",
@@ -368,20 +396,20 @@
      "published": "2026-11-07T14:00:08+00:00",
      "thumb": "https://i2.ytimg.com/vi/uCCxpBb6p6M/hqdefault.jpg",
      "views": 2
-    },
-    {
-     "title": "Spider-Man: Brand New Day (2026) — Movie Explained in Urdu",
-     "link": "https://www.youtube.com/watch?v=5Z4HmBAW_F0",
-     "published": "2026-11-06T15:56:40+00:00",
-     "thumb": "https://i2.ytimg.com/vi/5Z4HmBAW_F0/hqdefault.jpg",
-     "views": 540
     }
    ],
-   "fetchedAt": 1794662910129
+   "fetchedAt": 1794749314742
   },
   "UC64QD7XTKTJV_jEi88h_5MQ": {
    "name": "Wahlly-Gamer",
    "videos": [
+    {
+     "title": "God of War (2018) FULL STORY Explained — A Father, A Son, And A Boy Named Loki",
+     "link": "https://www.youtube.com/watch?v=OFk-uD7VPQc",
+     "published": "2026-11-14T14:00:16+00:00",
+     "thumb": "https://i4.ytimg.com/vi/OFk-uD7VPQc/hqdefault.jpg",
+     "views": 0
+    },
     {
      "title": "Red Dead Redemption 2 FULL STORY Explained — The Outlaw Who Chose Redemption",
      "link": "https://www.youtube.com/watch?v=osf07d6lm-Y",
@@ -394,14 +422,14 @@
      "link": "https://www.youtube.com/shorts/SGZKu2taJeA",
      "published": "2026-11-12T16:50:08+00:00",
      "thumb": "https://i4.ytimg.com/vi/SGZKu2taJeA/hqdefault.jpg",
-     "views": 30
+     "views": 33
     },
     {
      "title": "How GPS Works: Your Phone Is Tracked From Space",
      "link": "https://www.youtube.com/shorts/KrHCtFo_A0Y",
      "published": "2026-11-11T17:14:07+00:00",
      "thumb": "https://i4.ytimg.com/vi/KrHCtFo_A0Y/hqdefault.jpg",
-     "views": 205
+     "views": 200
     },
     {
      "title": "Ek Mutthi Namak | Dandi March 1930 | Gandhi Ka Namak Satyagraha",
@@ -429,27 +457,27 @@
      "link": "https://www.youtube.com/watch?v=cxier7Sl4AY",
      "published": "2026-11-10T16:22:45+00:00",
      "thumb": "https://i4.ytimg.com/vi/cxier7Sl4AY/hqdefault.jpg",
-     "views": 0
-    },
-    {
-     "title": "GTA 6 Map Explained — Every Leonida Location",
-     "link": "https://www.youtube.com/watch?v=C6VzziRQC5U",
-     "published": "2026-11-01T15:00:38+00:00",
-     "thumb": "https://i4.ytimg.com/vi/C6VzziRQC5U/hqdefault.jpg",
-     "views": 0
+     "views": 1
     }
    ],
-   "fetchedAt": 1794662910863
+   "fetchedAt": 1794749315631
   },
   "UC223qUa4I5EdoCm_pqEHLGA": {
    "name": "Muscle Map",
    "videos": [
     {
+     "title": "Day 5/100 — Dumbbell Bench Press 💪 | Muscle Map",
+     "link": "https://www.youtube.com/shorts/GfKUz85dbLY",
+     "published": "2026-11-14T14:15:38+00:00",
+     "thumb": "https://i4.ytimg.com/vi/GfKUz85dbLY/hqdefault.jpg",
+     "views": 1281
+    },
+    {
      "title": "Day 4/100 — Plank 💪 | Muscle Map",
      "link": "https://www.youtube.com/shorts/KUoVFbcBhaE",
      "published": "2026-11-13T14:15:25+00:00",
      "thumb": "https://i4.ytimg.com/vi/KUoVFbcBhaE/hqdefault.jpg",
-     "views": 13
+     "views": 37
     },
     {
      "title": "5 Minute Full Body Workout at Home — 10 Moves, No Equipment",
@@ -463,14 +491,14 @@
      "link": "https://www.youtube.com/shorts/6_iiBkbYrr0",
      "published": "2026-11-12T16:49:01+00:00",
      "thumb": "https://i3.ytimg.com/vi/6_iiBkbYrr0/hqdefault.jpg",
-     "views": 366
+     "views": 378
     },
     {
      "title": "Day 2/100 — Dumbbell Row 💪 | Muscle Map",
      "link": "https://www.youtube.com/shorts/3EnmDZjFJmw",
      "published": "2026-11-11T14:15:28+00:00",
      "thumb": "https://i4.ytimg.com/vi/3EnmDZjFJmw/hqdefault.jpg",
-     "views": 1253
+     "views": 1291
     },
     {
      "title": "Day 1/100 — Push-Up | Muscle Map",
@@ -487,11 +515,25 @@
      "views": 1229
     }
    ],
-   "fetchedAt": 1794662911543
+   "fetchedAt": 1794749316458
   },
   "UCPNPUvkvuTx7rVVvbJKYLew": {
    "name": "TeeliToonz",
    "videos": [
+    {
+     "title": "How Elevators Work",
+     "link": "https://www.youtube.com/watch?v=3szAYlukPz4",
+     "published": "2026-11-14T14:30:30+00:00",
+     "thumb": "https://i4.ytimg.com/vi/3szAYlukPz4/hqdefault.jpg",
+     "views": 0
+    },
+    {
+     "title": "Indus Valley Civilization — The Planned City Built 4,500 Years Ago",
+     "link": "https://www.youtube.com/shorts/Yh00qCCcNkg",
+     "published": "2026-11-14T14:24:34+00:00",
+     "thumb": "https://i2.ytimg.com/vi/Yh00qCCcNkg/hqdefault.jpg",
+     "views": 0
+    },
     {
      "title": "Why Airplane Windows Are Round — The Shape That Keeps Planes Safe",
      "link": "https://www.youtube.com/shorts/FDNxl5M9eeU",
@@ -533,23 +575,9 @@
      "published": "2026-10-27T17:33:42+00:00",
      "thumb": "https://i2.ytimg.com/vi/uOO1QBIiwHk/hqdefault.jpg",
      "views": 8
-    },
-    {
-     "title": "A Second Victim Stepped Forward! 😱 #Shorts",
-     "link": "https://www.youtube.com/shorts/dSoyDRZ4_MQ",
-     "published": "2026-10-23T11:00:33+00:00",
-     "thumb": "https://i1.ytimg.com/vi/dSoyDRZ4_MQ/hqdefault.jpg",
-     "views": 0
-    },
-    {
-     "title": "Inside Was a Dummy Phone! 😱 #Shorts",
-     "link": "https://www.youtube.com/shorts/2sGx-L_8M-4",
-     "published": "2026-10-22T11:00:37+00:00",
-     "thumb": "https://i3.ytimg.com/vi/2sGx-L_8M-4/hqdefault.jpg",
-     "views": 0
     }
    ],
-   "fetchedAt": 1794662912242
+   "fetchedAt": 1794749317354
   }
  }
 }
