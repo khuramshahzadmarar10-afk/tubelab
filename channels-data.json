@@ -1,36 +1,57 @@
 {
- "updatedAt": "2026-11-16T13:28:56.645393+00:00",
+ "updatedAt": "2026-11-17T17:02:36.997111+00:00",
  "channels": {
   "UC0muN9k-ye9io1iKFdYXK6A": {
    "name": "Cinematic Realms",
    "videos": [
     {
+     "title": "Mary Celeste: 10 People Vanished — What Happened? 🔍",
+     "link": "https://www.youtube.com/shorts/uMuFFjrun0s",
+     "published": "2026-11-17T14:00:34+00:00",
+     "thumb": "https://i2.ytimg.com/vi/uMuFFjrun0s/hqdefault.jpg",
+     "views": 44
+    },
+    {
+     "title": "Emberfall | Hollywood Movie",
+     "link": "https://www.youtube.com/watch?v=KDYgHQV1S5s",
+     "published": "2026-11-16T14:30:30+00:00",
+     "thumb": "https://i4.ytimg.com/vi/KDYgHQV1S5s/hqdefault.jpg",
+     "views": 1
+    },
+    {
+     "title": "Black Dahlia: 79 Years Later, Still Unsolved 🔍",
+     "link": "https://www.youtube.com/shorts/Tl7rYPbj2ow",
+     "published": "2026-11-16T14:00:38+00:00",
+     "thumb": "https://i1.ytimg.com/vi/Tl7rYPbj2ow/hqdefault.jpg",
+     "views": 105
+    },
+    {
      "title": "The King Who Stole a Dragon | Urdu Hollywood Movie",
      "link": "https://www.youtube.com/watch?v=yYFeYx-hrs8",
      "published": "2026-11-15T14:30:10+00:00",
      "thumb": "https://i2.ytimg.com/vi/yYFeYx-hrs8/hqdefault.jpg",
-     "views": 30
+     "views": 35
     },
     {
      "title": "Rendlesham Forest: Britain's Roswell UFO Mystery 🔍",
      "link": "https://www.youtube.com/shorts/4_6p9a-XtW4",
      "published": "2026-11-15T14:00:18+00:00",
      "thumb": "https://i1.ytimg.com/vi/4_6p9a-XtW4/hqdefault.jpg",
-     "views": 3
+     "views": 9
     },
     {
      "title": "Dragon's Judgment | Hollywood Movie",
      "link": "https://www.youtube.com/watch?v=Pc5feSgAwS8",
      "published": "2026-11-14T14:30:34+00:00",
      "thumb": "https://i1.ytimg.com/vi/Pc5feSgAwS8/hqdefault.jpg",
-     "views": 11
+     "views": 28
     },
     {
      "title": "Yuba County Five: 5 Men Vanished, 1 Never Found 🔍",
      "link": "https://www.youtube.com/shorts/29899j7CVU4",
      "published": "2026-11-14T14:01:21+00:00",
      "thumb": "https://i3.ytimg.com/vi/29899j7CVU4/hqdefault.jpg",
-     "views": 161
+     "views": 177
     },
     {
      "title": "The 600-Year-Old Book Nobody Can Read",
@@ -38,40 +59,33 @@
      "published": "2026-11-12T16:28:14+00:00",
      "thumb": "https://i3.ytimg.com/vi/jg--eiqYHcI/hqdefault.jpg",
      "views": 30
-    },
-    {
-     "title": "Dancing Plague of 1518 — They Danced Until They Died 💃",
-     "link": "https://www.youtube.com/shorts/Syf6Q3cKtn8",
-     "published": "2026-11-11T14:00:23+00:00",
-     "thumb": "https://i4.ytimg.com/vi/Syf6Q3cKtn8/hqdefault.jpg",
-     "views": 61
-    },
-    {
-     "title": "Battle of Britain 1940: How Hitler Lost the War in the Skies",
-     "link": "https://www.youtube.com/watch?v=Cz-CStOfy9k",
-     "published": "2026-11-10T01:30:39+00:00",
-     "thumb": "https://i4.ytimg.com/vi/Cz-CStOfy9k/hqdefault.jpg",
-     "views": 10
-    },
-    {
-     "title": "Amelia Earhart Vanished Mid-Flight — No Wreckage Ever Found",
-     "link": "https://www.youtube.com/shorts/81hb5d_ZYX4",
-     "published": "2026-11-09T14:00:23+00:00",
-     "thumb": "https://i1.ytimg.com/vi/81hb5d_ZYX4/hqdefault.jpg",
-     "views": 69
     }
    ],
-   "fetchedAt": 1794835737500
+   "fetchedAt": 1794934958116
   },
   "UCVWdAu0wzQ_ahxjKa1BPI3Q": {
    "name": "Invisible Empires",
    "videos": [
     {
+     "title": "Historia de Elektra: El Dueño de Grupo Salinas y el Imperio de Ricardo Salinas Pliego",
+     "link": "https://www.youtube.com/watch?v=JVoOU4C8MI4",
+     "published": "2026-11-17T14:30:38+00:00",
+     "thumb": "https://i3.ytimg.com/vi/JVoOU4C8MI4/hqdefault.jpg",
+     "views": 0
+    },
+    {
+     "title": "Historia de Carlos Slim: El Dueño de Telcel y el Hombre Más Rico de México",
+     "link": "https://www.youtube.com/watch?v=NOrW3FkLLME",
+     "published": "2026-11-16T14:30:21+00:00",
+     "thumb": "https://i3.ytimg.com/vi/NOrW3FkLLME/hqdefault.jpg",
+     "views": 2
+    },
+    {
      "title": "Historia de Ferrero Rocher: La Familia Secreta Detrás de Nutella",
      "link": "https://www.youtube.com/watch?v=wqWHj4C1UZo",
      "published": "2026-11-15T14:30:10+00:00",
      "thumb": "https://i4.ytimg.com/vi/wqWHj4C1UZo/hqdefault.jpg",
-     "views": 1
+     "views": 2
     },
     {
      "title": "¿Quién Es el Dueño de Telefónica? El Estado, los Saudíes y tu Móvil",
@@ -85,7 +99,7 @@
      "link": "https://www.youtube.com/watch?v=WsGtrzBeBgY",
      "published": "2026-11-13T14:30:01+00:00",
      "thumb": "https://i4.ytimg.com/vi/WsGtrzBeBgY/hqdefault.jpg",
-     "views": 45
+     "views": 57
     },
     {
      "title": "La Familia Botín: El Imperio Invisible detrás de Banco Santander",
@@ -99,35 +113,28 @@
      "link": "https://www.youtube.com/watch?v=gdh5pqOv5D8",
      "published": "2026-11-11T14:30:29+00:00",
      "thumb": "https://i4.ytimg.com/vi/gdh5pqOv5D8/hqdefault.jpg",
-     "views": 21
+     "views": 23
     },
     {
      "title": "La Historia de Bimbo en España: El Otro Bimbo que México Perdió 47 Años",
      "link": "https://www.youtube.com/watch?v=fof0oFQXRYQ",
      "published": "2026-11-10T01:30:34+00:00",
      "thumb": "https://i3.ytimg.com/vi/fof0oFQXRYQ/hqdefault.jpg",
-     "views": 52
-    },
-    {
-     "title": "Amancio Ortega: La Historia del Dueño de Zara, de Repartidor a Hombre Más Rico del Mundo",
-     "link": "https://www.youtube.com/watch?v=fBrdPvgRWvw",
-     "published": "2026-11-07T19:30:01+00:00",
-     "thumb": "https://i3.ytimg.com/vi/fBrdPvgRWvw/hqdefault.jpg",
-     "views": 48
-    },
-    {
-     "title": "La Historia de Bimbo Completa: La Familia Dueña del Pan del Mundo",
-     "link": "https://www.youtube.com/watch?v=rc9rqg7TvCc",
-     "published": "2026-11-06T19:30:12+00:00",
-     "thumb": "https://i3.ytimg.com/vi/rc9rqg7TvCc/hqdefault.jpg",
-     "views": 50
+     "views": 58
     }
    ],
-   "fetchedAt": 1794835738249
+   "fetchedAt": 1794934958572
   },
   "UCofH-WClOiS0hPkilRgKgNg": {
    "name": "Lost Chapters",
    "videos": [
+    {
+     "title": "The French Revolution 1789 | How the Guillotine Changed Europe",
+     "link": "https://www.youtube.com/watch?v=TEuIuQpWGUg",
+     "published": "2026-11-16T14:30:30+00:00",
+     "thumb": "https://i1.ytimg.com/vi/TEuIuQpWGUg/hqdefault.jpg",
+     "views": 0
+    },
     {
      "title": "The Sack of Rome 1527 | The Day the Renaissance Died",
      "link": "https://www.youtube.com/watch?v=vWR6ln-ypVc",
@@ -147,7 +154,7 @@
      "link": "https://www.youtube.com/watch?v=dGEC_HSkLZ0",
      "published": "2026-11-12T14:30:01+00:00",
      "thumb": "https://i1.ytimg.com/vi/dGEC_HSkLZ0/hqdefault.jpg",
-     "views": 2
+     "views": 3
     },
     {
      "title": "The Black Death Documentary | How One Plague Killed a Third of Europe",
@@ -178,7 +185,7 @@
      "views": 19
     }
    ],
-   "fetchedAt": 1794835738808
+   "fetchedAt": 1794934959026
   },
   "UCSP5logpZlbjlj-ROsLoLEA": {
    "name": "Sampoorn Itihas",
@@ -230,7 +237,7 @@
      "link": "https://www.youtube.com/watch?v=qUWqTvn5GvU",
      "published": "2026-11-09T12:30:29+00:00",
      "thumb": "https://i2.ytimg.com/vi/qUWqTvn5GvU/hqdefault.jpg",
-     "views": 0
+     "views": 1
     },
     {
      "title": "Changez Khan  in Hindi | The Entire History of Changez Khan & Mongol Empire",
@@ -240,11 +247,25 @@
      "views": 0
     }
    ],
-   "fetchedAt": 1794835739467
+   "fetchedAt": 1794934959569
   },
   "UCoUlpDSqRha6LFGOdXy0kqQ": {
    "name": "Apex Depths",
    "videos": [
+    {
+     "title": "Why You'd Never Want To Meet A Box Jellyfish",
+     "link": "https://www.youtube.com/watch?v=vhFvHoVW-WA",
+     "published": "2026-11-17T15:26:18+00:00",
+     "thumb": "https://i3.ytimg.com/vi/vhFvHoVW-WA/hqdefault.jpg",
+     "views": 1
+    },
+    {
+     "title": "Why You'd Never Want To Meet A Goblin Shark",
+     "link": "https://www.youtube.com/watch?v=3jk7QLNsjCw",
+     "published": "2026-11-16T14:30:13+00:00",
+     "thumb": "https://i4.ytimg.com/vi/3jk7QLNsjCw/hqdefault.jpg",
+     "views": 24
+    },
     {
      "title": "Why You'd Never Want To Meet A Bull Shark",
      "link": "https://www.youtube.com/watch?v=RQkEO8Shcd0",
@@ -286,20 +307,27 @@
      "published": "2026-11-10T16:40:41+00:00",
      "thumb": "https://i4.ytimg.com/vi/7cTz8_OCJIQ/hqdefault.jpg",
      "views": 0
-    },
-    {
-     "title": "🔴 LIVE: African Safari 24/7 — Lions, Elephants & Wild Animals | Relaxing Wildlife Stream",
-     "link": "https://www.youtube.com/watch?v=O8TK2a0BsQc",
-     "published": "2026-10-27T11:02:03+00:00",
-     "thumb": "https://i4.ytimg.com/vi/O8TK2a0BsQc/hqdefault.jpg",
-     "views": 0
     }
    ],
-   "fetchedAt": 1794835739932
+   "fetchedAt": 1794934960258
   },
   "UCmWqX8VwfWmtlxZIOnSLsLw": {
    "name": "Space Files",
    "videos": [
+    {
+     "title": "NASA Just Found Water on Mars — Twice in One Day",
+     "link": "https://www.youtube.com/watch?v=QOyvfFcch0E",
+     "published": "2026-11-17T14:30:35+00:00",
+     "thumb": "https://i2.ytimg.com/vi/QOyvfFcch0E/hqdefault.jpg",
+     "views": 0
+    },
+    {
+     "title": "Why Did NASA Send ESCAPADE to Mars When Mars Was on the Wrong Side of the Sun?",
+     "link": "https://www.youtube.com/watch?v=Oqt4EqzGiNo",
+     "published": "2026-11-16T14:30:10+00:00",
+     "thumb": "https://i4.ytimg.com/vi/Oqt4EqzGiNo/hqdefault.jpg",
+     "views": 0
+    },
     {
      "title": "Is 3I/ATLAS Older Than the Sun?",
      "link": "https://www.youtube.com/watch?v=xp_53N1wNEU",
@@ -340,28 +368,28 @@
      "link": "https://www.youtube.com/watch?v=fY4MJ4M88PA",
      "published": "2026-11-09T17:00:24+00:00",
      "thumb": "https://i3.ytimg.com/vi/fY4MJ4M88PA/hqdefault.jpg",
-     "views": 14
-    },
-    {
-     "title": "Why Did Voyager 1 Go Silent for 48 Hours?",
-     "link": "https://www.youtube.com/watch?v=6Ju-5uW-4RE",
-     "published": "2026-11-08T14:00:35+00:00",
-     "thumb": "https://i3.ytimg.com/vi/6Ju-5uW-4RE/hqdefault.jpg",
-     "views": 0
-    },
-    {
-     "title": "Why Won't Artemis III Land on the Moon?",
-     "link": "https://www.youtube.com/watch?v=95BAYbpadL4",
-     "published": "2026-11-04T15:41:48+00:00",
-     "thumb": "https://i2.ytimg.com/vi/95BAYbpadL4/hqdefault.jpg",
-     "views": 2
+     "views": 16
     }
    ],
-   "fetchedAt": 1794835740589
+   "fetchedAt": 1794934960898
   },
   "UC47DLUlNUFv2UK2daslvtgw": {
    "name": "Stick & Shadow",
    "videos": [
+    {
+     "title": "Your Life as a Roman Emperor",
+     "link": "https://www.youtube.com/watch?v=TBxowJxvzsA",
+     "published": "2026-11-17T14:30:06+00:00",
+     "thumb": "https://i1.ytimg.com/vi/TBxowJxvzsA/hqdefault.jpg",
+     "views": 0
+    },
+    {
+     "title": "Your Life as a Pirate",
+     "link": "https://www.youtube.com/watch?v=pzTJnUzl4Vs",
+     "published": "2026-11-16T14:30:20+00:00",
+     "thumb": "https://i1.ytimg.com/vi/pzTJnUzl4Vs/hqdefault.jpg",
+     "views": 1
+    },
     {
      "title": "Your Life as a Roman Soldier",
      "link": "https://www.youtube.com/watch?v=11cEXmr27K8",
@@ -381,7 +409,7 @@
      "link": "https://www.youtube.com/watch?v=mV3IMWCD8K8",
      "published": "2026-11-13T14:30:13+00:00",
      "thumb": "https://i2.ytimg.com/vi/mV3IMWCD8K8/hqdefault.jpg",
-     "views": 1
+     "views": 0
     },
     {
      "title": "What Did Medieval Peasants Actually Do All Day?",
@@ -403,27 +431,20 @@
      "published": "2026-11-10T13:00:08+00:00",
      "thumb": "https://i4.ytimg.com/vi/CGol04gyR5A/hqdefault.jpg",
      "views": 2
-    },
-    {
-     "title": "Your Life as a Gladiator",
-     "link": "https://www.youtube.com/watch?v=5lrs57UkcGA",
-     "published": "2026-11-08T14:00:10+00:00",
-     "thumb": "https://i2.ytimg.com/vi/5lrs57UkcGA/hqdefault.jpg",
-     "views": 0
-    },
-    {
-     "title": "Ramayana: Part 1 (2026) — Movie Explained in Urdu | Ranbir Kapoor, Yash, Sai Pallavi",
-     "link": "https://www.youtube.com/watch?v=8pSSi152gnI",
-     "published": "2026-11-07T14:34:40+00:00",
-     "thumb": "https://i1.ytimg.com/vi/8pSSi152gnI/hqdefault.jpg",
-     "views": 13
     }
    ],
-   "fetchedAt": 1794835741205
+   "fetchedAt": 1794934961544
   },
   "UC64QD7XTKTJV_jEi88h_5MQ": {
    "name": "Wahlly-Gamer",
    "videos": [
+    {
+     "title": "How Bluetooth Works: The Radio That Jumps 1,600 Times a Second",
+     "link": "https://www.youtube.com/shorts/zsKyHavW6QY",
+     "published": "2026-11-17T15:52:58+00:00",
+     "thumb": "https://i3.ytimg.com/vi/zsKyHavW6QY/hqdefault.jpg",
+     "views": 0
+    },
     {
      "title": "God of War (2018) FULL STORY Explained — A Father, A Son, And A Boy Named Loki",
      "link": "https://www.youtube.com/watch?v=OFk-uD7VPQc",
@@ -472,40 +493,47 @@
      "published": "2026-11-11T14:00:06+00:00",
      "thumb": "https://i2.ytimg.com/vi/ifowjI8wyJg/hqdefault.jpg",
      "views": 1
-    },
-    {
-     "title": "GTA San Andreas FULL STORY Explained | The Betrayal That Killed CJ's Mother",
-     "link": "https://www.youtube.com/watch?v=cxier7Sl4AY",
-     "published": "2026-11-10T16:22:45+00:00",
-     "thumb": "https://i4.ytimg.com/vi/cxier7Sl4AY/hqdefault.jpg",
-     "views": 1
     }
    ],
-   "fetchedAt": 1794835741845
+   "fetchedAt": 1794934962062
   },
   "UC223qUa4I5EdoCm_pqEHLGA": {
    "name": "Muscle Map",
    "videos": [
     {
+     "title": "Day 9/100 — Shoulder Press 💪 | Muscle Map",
+     "link": "https://www.youtube.com/shorts/W1eolXGXhCs",
+     "published": "2026-11-17T14:15:08+00:00",
+     "thumb": "https://i4.ytimg.com/vi/W1eolXGXhCs/hqdefault.jpg",
+     "views": 25
+    },
+    {
+     "title": "Day 7/100 — Lunges 💪 | Muscle Map",
+     "link": "https://www.youtube.com/shorts/LGtn0hQ2s7w",
+     "published": "2026-11-16T14:15:28+00:00",
+     "thumb": "https://i1.ytimg.com/vi/LGtn0hQ2s7w/hqdefault.jpg",
+     "views": 928
+    },
+    {
      "title": "Day 6/100 — Dumbbell Deadlift 💪 | Muscle Map",
      "link": "https://www.youtube.com/shorts/NLRRO_SkQeQ",
      "published": "2026-11-15T14:15:05+00:00",
      "thumb": "https://i3.ytimg.com/vi/NLRRO_SkQeQ/hqdefault.jpg",
-     "views": 1251
+     "views": 1532
     },
     {
      "title": "Day 5/100 — Dumbbell Bench Press 💪 | Muscle Map",
      "link": "https://www.youtube.com/shorts/GfKUz85dbLY",
      "published": "2026-11-14T14:15:38+00:00",
      "thumb": "https://i4.ytimg.com/vi/GfKUz85dbLY/hqdefault.jpg",
-     "views": 1414
+     "views": 1432
     },
     {
      "title": "Day 4/100 — Plank 💪 | Muscle Map",
      "link": "https://www.youtube.com/shorts/KUoVFbcBhaE",
      "published": "2026-11-13T14:15:25+00:00",
      "thumb": "https://i4.ytimg.com/vi/KUoVFbcBhaE/hqdefault.jpg",
-     "views": 54
+     "views": 59
     },
     {
      "title": "5 Minute Full Body Workout at Home — 10 Moves, No Equipment",
@@ -519,35 +547,28 @@
      "link": "https://www.youtube.com/shorts/6_iiBkbYrr0",
      "published": "2026-11-12T16:49:01+00:00",
      "thumb": "https://i3.ytimg.com/vi/6_iiBkbYrr0/hqdefault.jpg",
-     "views": 385
+     "views": 386
     },
     {
      "title": "Day 2/100 — Dumbbell Row 💪 | Muscle Map",
      "link": "https://www.youtube.com/shorts/3EnmDZjFJmw",
      "published": "2026-11-11T14:15:28+00:00",
      "thumb": "https://i4.ytimg.com/vi/3EnmDZjFJmw/hqdefault.jpg",
-     "views": 1297
-    },
-    {
-     "title": "Day 1/100 — Push-Up | Muscle Map",
-     "link": "https://www.youtube.com/shorts/CbkooRWBrhg",
-     "published": "2026-11-09T20:24:29+00:00",
-     "thumb": "https://i4.ytimg.com/vi/CbkooRWBrhg/hqdefault.jpg",
-     "views": 71
-    },
-    {
-     "title": "Muscle Map — Dumbbell Curls (Test Upload)",
-     "link": "https://www.youtube.com/shorts/wH6mRnomtxs",
-     "published": "2026-11-07T12:04:54+00:00",
-     "thumb": "https://i4.ytimg.com/vi/wH6mRnomtxs/hqdefault.jpg",
-     "views": 1236
+     "views": 1298
     }
    ],
-   "fetchedAt": 1794835742505
+   "fetchedAt": 1794934962688
   },
   "UCPNPUvkvuTx7rVVvbJKYLew": {
    "name": "TeeliToonz",
    "videos": [
+    {
+     "title": "What's Inside a Black Hole? — The Truth Beyond the Event Horizon",
+     "link": "https://www.youtube.com/shorts/8oARH5K9VEc",
+     "published": "2026-11-17T15:02:47+00:00",
+     "thumb": "https://i1.ytimg.com/vi/8oARH5K9VEc/hqdefault.jpg",
+     "views": 1
+    },
     {
      "title": "Baarle — The Town Split Between Two Countries",
      "link": "https://www.youtube.com/shorts/zNj7te_EnFM",
@@ -596,16 +617,9 @@
      "published": "2026-11-10T19:14:55+00:00",
      "thumb": "https://i4.ytimg.com/vi/_CrP5zUo5Yk/hqdefault.jpg",
      "views": 5
-    },
-    {
-     "title": "Poori Raat Murdon Se Bacha, Subah Insaanon Se Mara | Night of the Living Dead Explained in Urdu",
-     "link": "https://www.youtube.com/watch?v=pj-EAnReVXA",
-     "published": "2026-11-05T09:56:32+00:00",
-     "thumb": "https://i1.ytimg.com/vi/pj-EAnReVXA/hqdefault.jpg",
-     "views": 2
     }
    ],
-   "fetchedAt": 1794835743099
+   "fetchedAt": 1794934963115
   }
  }
 }
