@@ -1,77 +1,91 @@
 {
- "updatedAt": "2026-11-18T13:28:22.323385+00:00",
+ "updatedAt": "2026-11-19T13:28:32.417044+00:00",
  "channels": {
   "UC0muN9k-ye9io1iKFdYXK6A": {
    "name": "Cinematic Realms",
    "videos": [
     {
+     "title": "Who Was the Somerton Man? No Name, No Past 🔍",
+     "link": "https://www.youtube.com/shorts/lc22DKQsnKY",
+     "published": "2026-11-18T14:00:52+00:00",
+     "thumb": "https://i1.ytimg.com/vi/lc22DKQsnKY/hqdefault.jpg",
+     "views": 16
+    },
+    {
+     "title": "Short movie Film#viral #film #videoshort #viralshorts ",
+     "link": "https://www.youtube.com/watch?v=wY6ASq2dDhY",
+     "published": "2026-11-18T14:00:19+00:00",
+     "thumb": "https://i4.ytimg.com/vi/wY6ASq2dDhY/hqdefault.jpg",
+     "views": 5
+    },
+    {
      "title": "Mary Celeste: 10 People Vanished — What Happened? 🔍",
      "link": "https://www.youtube.com/shorts/uMuFFjrun0s",
      "published": "2026-11-17T14:00:34+00:00",
      "thumb": "https://i2.ytimg.com/vi/uMuFFjrun0s/hqdefault.jpg",
-     "views": 149
+     "views": 213
     },
     {
      "title": "Emberfall | Hollywood Movie",
      "link": "https://www.youtube.com/watch?v=KDYgHQV1S5s",
      "published": "2026-11-16T14:30:30+00:00",
      "thumb": "https://i4.ytimg.com/vi/KDYgHQV1S5s/hqdefault.jpg",
-     "views": 1
+     "views": 2
     },
     {
      "title": "Black Dahlia: 79 Years Later, Still Unsolved 🔍",
      "link": "https://www.youtube.com/shorts/Tl7rYPbj2ow",
      "published": "2026-11-16T14:00:38+00:00",
      "thumb": "https://i1.ytimg.com/vi/Tl7rYPbj2ow/hqdefault.jpg",
-     "views": 213
+     "views": 219
     },
     {
      "title": "The King Who Stole a Dragon | Urdu Hollywood Movie",
      "link": "https://www.youtube.com/watch?v=yYFeYx-hrs8",
      "published": "2026-11-15T14:30:10+00:00",
      "thumb": "https://i2.ytimg.com/vi/yYFeYx-hrs8/hqdefault.jpg",
-     "views": 35
+     "views": 40
     },
     {
      "title": "Rendlesham Forest: Britain's Roswell UFO Mystery 🔍",
      "link": "https://www.youtube.com/shorts/4_6p9a-XtW4",
      "published": "2026-11-15T14:00:18+00:00",
      "thumb": "https://i1.ytimg.com/vi/4_6p9a-XtW4/hqdefault.jpg",
-     "views": 10
+     "views": 12
     },
     {
      "title": "Dragon's Judgment | Hollywood Movie",
      "link": "https://www.youtube.com/watch?v=Pc5feSgAwS8",
      "published": "2026-11-14T14:30:34+00:00",
      "thumb": "https://i1.ytimg.com/vi/Pc5feSgAwS8/hqdefault.jpg",
-     "views": 29
-    },
-    {
-     "title": "Yuba County Five: 5 Men Vanished, 1 Never Found 🔍",
-     "link": "https://www.youtube.com/shorts/29899j7CVU4",
-     "published": "2026-11-14T14:01:21+00:00",
-     "thumb": "https://i3.ytimg.com/vi/29899j7CVU4/hqdefault.jpg",
-     "views": 176
-    },
-    {
-     "title": "The 600-Year-Old Book Nobody Can Read",
-     "link": "https://www.youtube.com/shorts/jg--eiqYHcI",
-     "published": "2026-11-12T16:28:14+00:00",
-     "thumb": "https://i3.ytimg.com/vi/jg--eiqYHcI/hqdefault.jpg",
-     "views": 31
+     "views": 37
     }
    ],
-   "fetchedAt": 1795008503202
+   "fetchedAt": 1795094913977
   },
   "UCVWdAu0wzQ_ahxjKa1BPI3Q": {
    "name": "Invisible Empires",
    "videos": [
     {
+     "title": "Historia de OXXO: El Dueño Secreto y la Familia Garza Sada",
+     "link": "https://www.youtube.com/watch?v=k7zStJUFDB8",
+     "published": "2026-11-18T22:00:13+00:00",
+     "thumb": "https://i4.ytimg.com/vi/k7zStJUFDB8/hqdefault.jpg",
+     "views": 12
+    },
+    {
+     "title": "Historia de IKEA: El Dueño Secreto y el Imperio de Ingvar Kamprad",
+     "link": "https://www.youtube.com/watch?v=c1v-LPLFj48",
+     "published": "2026-11-18T14:30:37+00:00",
+     "thumb": "https://i4.ytimg.com/vi/c1v-LPLFj48/hqdefault.jpg",
+     "views": 0
+    },
+    {
      "title": "Historia de Elektra: El Dueño de Grupo Salinas y el Imperio de Ricardo Salinas Pliego",
      "link": "https://www.youtube.com/watch?v=JVoOU4C8MI4",
      "published": "2026-11-17T14:30:38+00:00",
      "thumb": "https://i3.ytimg.com/vi/JVoOU4C8MI4/hqdefault.jpg",
-     "views": 48
+     "views": 57
     },
     {
      "title": "Historia de Carlos Slim: El Dueño de Telcel y el Hombre Más Rico de México",
@@ -106,34 +120,27 @@
      "link": "https://www.youtube.com/watch?v=YJLc7q4-gz8",
      "published": "2026-11-12T14:30:29+00:00",
      "thumb": "https://i2.ytimg.com/vi/YJLc7q4-gz8/hqdefault.jpg",
-     "views": 15
-    },
-    {
-     "title": "El Dueño de Mercadona: La Historia Secreta de Juan Roig y su Imperio Invisible",
-     "link": "https://www.youtube.com/watch?v=gdh5pqOv5D8",
-     "published": "2026-11-11T14:30:29+00:00",
-     "thumb": "https://i4.ytimg.com/vi/gdh5pqOv5D8/hqdefault.jpg",
-     "views": 25
-    },
-    {
-     "title": "La Historia de Bimbo en España: El Otro Bimbo que México Perdió 47 Años",
-     "link": "https://www.youtube.com/watch?v=fof0oFQXRYQ",
-     "published": "2026-11-10T01:30:34+00:00",
-     "thumb": "https://i3.ytimg.com/vi/fof0oFQXRYQ/hqdefault.jpg",
-     "views": 60
+     "views": 17
     }
    ],
-   "fetchedAt": 1795008503829
+   "fetchedAt": 1795094914968
   },
   "UCofH-WClOiS0hPkilRgKgNg": {
    "name": "Lost Chapters",
    "videos": [
     {
+     "title": "The Crimean War | The War That Invented Modern Warfare",
+     "link": "https://www.youtube.com/watch?v=OEbTTTB7ixc",
+     "published": "2026-11-18T14:30:31+00:00",
+     "thumb": "https://i4.ytimg.com/vi/OEbTTTB7ixc/hqdefault.jpg",
+     "views": 1
+    },
+    {
      "title": "The French Revolution 1789 | How the Guillotine Changed Europe",
      "link": "https://www.youtube.com/watch?v=TEuIuQpWGUg",
      "published": "2026-11-16T14:30:30+00:00",
      "thumb": "https://i1.ytimg.com/vi/TEuIuQpWGUg/hqdefault.jpg",
-     "views": 0
+     "views": 2
     },
     {
      "title": "The Sack of Rome 1527 | The Day the Renaissance Died",
@@ -176,26 +183,26 @@
      "published": "2026-11-07T14:00:37+00:00",
      "thumb": "https://i2.ytimg.com/vi/qIzvd-h0Oug/hqdefault.jpg",
      "views": 1
-    },
-    {
-     "title": "Alexandria's Library Was Really Lost",
-     "link": "https://www.youtube.com/watch?v=En9DzgZKZFI",
-     "published": "2026-11-06T14:00:21+00:00",
-     "thumb": "https://i2.ytimg.com/vi/En9DzgZKZFI/hqdefault.jpg",
-     "views": 19
     }
    ],
-   "fetchedAt": 1795008504526
+   "fetchedAt": 1795094915694
   },
   "UCSP5logpZlbjlj-ROsLoLEA": {
    "name": "Sampoorn Itihas",
    "videos": [
     {
+     "title": "British Raj History in Hindi | The Entire History of British Raj 1858 – 1947",
+     "link": "https://www.youtube.com/watch?v=Ax6VwEUZBlE",
+     "published": "2026-11-18T14:30:20+00:00",
+     "thumb": "https://i2.ytimg.com/vi/Ax6VwEUZBlE/hqdefault.jpg",
+     "views": 2
+    },
+    {
      "title": "British East India Company History in Hindi | The Entire History of East India Company 1600 – 1858",
      "link": "https://www.youtube.com/watch?v=lJ6wiuL4EjA",
      "published": "2026-11-15T14:30:19+00:00",
      "thumb": "https://i1.ytimg.com/vi/lJ6wiuL4EjA/hqdefault.jpg",
-     "views": 0
+     "views": 4
     },
     {
      "title": "Gandum Ka Safar | Mitti Se Roti Tak Ki Kahani",
@@ -223,14 +230,14 @@
      "link": "https://www.youtube.com/watch?v=cwt701QuRck",
      "published": "2026-11-11T14:30:15+00:00",
      "thumb": "https://i4.ytimg.com/vi/cwt701QuRck/hqdefault.jpg",
-     "views": 11
+     "views": 13
     },
     {
      "title": "Aztec Empire History in Hindi | The Entire History of Aztec Empire 1325 – 1521",
      "link": "https://www.youtube.com/watch?v=jDzyzsN0swE",
      "published": "2026-11-10T12:30:04+00:00",
      "thumb": "https://i3.ytimg.com/vi/jDzyzsN0swE/hqdefault.jpg",
-     "views": 5
+     "views": 7
     },
     {
      "title": "Roman Empire History in Hindi | The Entire History of Roman Empire 753 BC – 1453 AD",
@@ -238,33 +245,33 @@
      "published": "2026-11-09T12:30:29+00:00",
      "thumb": "https://i2.ytimg.com/vi/qUWqTvn5GvU/hqdefault.jpg",
      "views": 1
-    },
-    {
-     "title": "Changez Khan  in Hindi | The Entire History of Changez Khan & Mongol Empire",
-     "link": "https://www.youtube.com/watch?v=ImtWebJNVBQ",
-     "published": "2026-11-07T14:00:18+00:00",
-     "thumb": "https://i2.ytimg.com/vi/ImtWebJNVBQ/hqdefault.jpg",
-     "views": 0
     }
    ],
-   "fetchedAt": 1795008505232
+   "fetchedAt": 1795094916366
   },
   "UCoUlpDSqRha6LFGOdXy0kqQ": {
    "name": "Apex Depths",
    "videos": [
     {
+     "title": "Why You'd Never Want To Meet A Tiger Shark",
+     "link": "https://www.youtube.com/watch?v=ZyAI8FprDjg",
+     "published": "2026-11-18T14:30:37+00:00",
+     "thumb": "https://i3.ytimg.com/vi/ZyAI8FprDjg/hqdefault.jpg",
+     "views": 8
+    },
+    {
      "title": "Why You'd Never Want To Meet A Box Jellyfish",
      "link": "https://www.youtube.com/watch?v=vhFvHoVW-WA",
      "published": "2026-11-17T15:26:18+00:00",
      "thumb": "https://i3.ytimg.com/vi/vhFvHoVW-WA/hqdefault.jpg",
-     "views": 12
+     "views": 13
     },
     {
      "title": "Why You'd Never Want To Meet A Goblin Shark",
      "link": "https://www.youtube.com/watch?v=3jk7QLNsjCw",
      "published": "2026-11-16T14:30:13+00:00",
      "thumb": "https://i4.ytimg.com/vi/3jk7QLNsjCw/hqdefault.jpg",
-     "views": 24
+     "views": 39
     },
     {
      "title": "Why You'd Never Want To Meet A Bull Shark",
@@ -300,20 +307,20 @@
      "published": "2026-11-11T14:30:25+00:00",
      "thumb": "https://i2.ytimg.com/vi/Ij2VVxILbms/hqdefault.jpg",
      "views": 0
-    },
-    {
-     "title": "Why You'd Never Want To Meet An Orca",
-     "link": "https://www.youtube.com/watch?v=7cTz8_OCJIQ",
-     "published": "2026-11-10T16:40:41+00:00",
-     "thumb": "https://i4.ytimg.com/vi/7cTz8_OCJIQ/hqdefault.jpg",
-     "views": 0
     }
    ],
-   "fetchedAt": 1795008505893
+   "fetchedAt": 1795094917287
   },
   "UCmWqX8VwfWmtlxZIOnSLsLw": {
    "name": "Space Files",
    "videos": [
+    {
+     "title": "The Moon Is About to Look Bigger Than It Has All Year",
+     "link": "https://www.youtube.com/watch?v=5oMk5NIGpls",
+     "published": "2026-11-18T14:30:15+00:00",
+     "thumb": "https://i2.ytimg.com/vi/5oMk5NIGpls/hqdefault.jpg",
+     "views": 0
+    },
     {
      "title": "NASA Just Found Water on Mars — Twice in One Day",
      "link": "https://www.youtube.com/watch?v=QOyvfFcch0E",
@@ -333,7 +340,7 @@
      "link": "https://www.youtube.com/watch?v=xp_53N1wNEU",
      "published": "2026-11-15T14:30:12+00:00",
      "thumb": "https://i1.ytimg.com/vi/xp_53N1wNEU/hqdefault.jpg",
-     "views": 0
+     "views": 1
     },
     {
      "title": "Voyager 1 Is One Light-Day Away — And NASA Wants the World to Shine",
@@ -362,20 +369,20 @@
      "published": "2026-11-10T17:00:30+00:00",
      "thumb": "https://i4.ytimg.com/vi/SUuVQn2MzR4/hqdefault.jpg",
      "views": 2
-    },
-    {
-     "title": "Why Will the Leonids Light Up the Sky on November 17?",
-     "link": "https://www.youtube.com/watch?v=fY4MJ4M88PA",
-     "published": "2026-11-09T17:00:24+00:00",
-     "thumb": "https://i3.ytimg.com/vi/fY4MJ4M88PA/hqdefault.jpg",
-     "views": 21
     }
    ],
-   "fetchedAt": 1795008506393
+   "fetchedAt": 1795094918092
   },
   "UC47DLUlNUFv2UK2daslvtgw": {
    "name": "Stick & Shadow",
    "videos": [
+    {
+     "title": "Your Life as a Ninja",
+     "link": "https://www.youtube.com/watch?v=djc0Lcudxng",
+     "published": "2026-11-18T14:30:34+00:00",
+     "thumb": "https://i1.ytimg.com/vi/djc0Lcudxng/hqdefault.jpg",
+     "views": 0
+    },
     {
      "title": "Your Life as a Roman Emperor",
      "link": "https://www.youtube.com/watch?v=TBxowJxvzsA",
@@ -424,16 +431,9 @@
      "published": "2026-11-11T14:30:33+00:00",
      "thumb": "https://i2.ytimg.com/vi/MC7B9NjcODw/hqdefault.jpg",
      "views": 3
-    },
-    {
-     "title": "Your Life as a Samurai",
-     "link": "https://www.youtube.com/watch?v=CGol04gyR5A",
-     "published": "2026-11-10T13:00:08+00:00",
-     "thumb": "https://i4.ytimg.com/vi/CGol04gyR5A/hqdefault.jpg",
-     "views": 2
     }
    ],
-   "fetchedAt": 1795008507181
+   "fetchedAt": 1795094918878
   },
   "UC64QD7XTKTJV_jEi88h_5MQ": {
    "name": "Wahlly-Gamer",
@@ -495,73 +495,80 @@
      "views": 1
     }
    ],
-   "fetchedAt": 1795008507731
+   "fetchedAt": 1795094919675
   },
   "UC223qUa4I5EdoCm_pqEHLGA": {
    "name": "Muscle Map",
    "videos": [
     {
+     "title": "Day 10/100 — Dumbbell Curls 💪 | Muscle Map",
+     "link": "https://www.youtube.com/shorts/buqqs5-NIXw",
+     "published": "2026-11-19T08:00:16+00:00",
+     "thumb": "https://i3.ytimg.com/vi/buqqs5-NIXw/hqdefault.jpg",
+     "views": 246
+    },
+    {
+     "title": "Day 11/100 — Goblet Squat 💪 | Muscle Map",
+     "link": "https://www.youtube.com/shorts/3y_Qq6D4hc8",
+     "published": "2026-11-18T14:15:22+00:00",
+     "thumb": "https://i4.ytimg.com/vi/3y_Qq6D4hc8/hqdefault.jpg",
+     "views": 503
+    },
+    {
      "title": "Day 8/100 — Crunches 💪 | Muscle Map",
      "link": "https://www.youtube.com/shorts/EXjdg9M7-C8",
      "published": "2026-11-18T08:00:01+00:00",
      "thumb": "https://i2.ytimg.com/vi/EXjdg9M7-C8/hqdefault.jpg",
-     "views": 147
+     "views": 312
     },
     {
      "title": "Food Pipe vs Wind Pipe — Why You Never Choke on Every Bite",
      "link": "https://www.youtube.com/shorts/lSHPSFQwPHk",
      "published": "2026-11-17T19:45:43+00:00",
      "thumb": "https://i1.ytimg.com/vi/lSHPSFQwPHk/hqdefault.jpg",
-     "views": 276
+     "views": 371
     },
     {
      "title": "Day 9/100 — Shoulder Press 💪 | Muscle Map",
      "link": "https://www.youtube.com/shorts/W1eolXGXhCs",
      "published": "2026-11-17T14:15:08+00:00",
      "thumb": "https://i4.ytimg.com/vi/W1eolXGXhCs/hqdefault.jpg",
-     "views": 185
+     "views": 295
     },
     {
      "title": "Day 7/100 — Lunges 💪 | Muscle Map",
      "link": "https://www.youtube.com/shorts/LGtn0hQ2s7w",
      "published": "2026-11-16T14:15:28+00:00",
      "thumb": "https://i1.ytimg.com/vi/LGtn0hQ2s7w/hqdefault.jpg",
-     "views": 1206
+     "views": 1258
     },
     {
      "title": "Day 6/100 — Dumbbell Deadlift 💪 | Muscle Map",
      "link": "https://www.youtube.com/shorts/NLRRO_SkQeQ",
      "published": "2026-11-15T14:15:05+00:00",
      "thumb": "https://i3.ytimg.com/vi/NLRRO_SkQeQ/hqdefault.jpg",
-     "views": 1586
+     "views": 1610
     },
     {
      "title": "Day 5/100 — Dumbbell Bench Press 💪 | Muscle Map",
      "link": "https://www.youtube.com/shorts/GfKUz85dbLY",
      "published": "2026-11-14T14:15:38+00:00",
      "thumb": "https://i4.ytimg.com/vi/GfKUz85dbLY/hqdefault.jpg",
-     "views": 1465
-    },
-    {
-     "title": "Day 4/100 — Plank 💪 | Muscle Map",
-     "link": "https://www.youtube.com/shorts/KUoVFbcBhaE",
-     "published": "2026-11-13T14:15:25+00:00",
-     "thumb": "https://i4.ytimg.com/vi/KUoVFbcBhaE/hqdefault.jpg",
-     "views": 62
-    },
-    {
-     "title": "5 Minute Full Body Workout at Home — 10 Moves, No Equipment",
-     "link": "https://www.youtube.com/watch?v=17lRW8TwdHE",
-     "published": "2026-11-13T14:00:22+00:00",
-     "thumb": "https://i2.ytimg.com/vi/17lRW8TwdHE/hqdefault.jpg",
-     "views": 2
+     "views": 1484
     }
    ],
-   "fetchedAt": 1795008508388
+   "fetchedAt": 1795094920189
   },
   "UCPNPUvkvuTx7rVVvbJKYLew": {
    "name": "TeeliToonz",
    "videos": [
+    {
+     "title": "Anchoring Effect — Why the First Number You See Controls Your Decisions",
+     "link": "https://www.youtube.com/shorts/FlQ6lyGasgI",
+     "published": "2026-11-18T14:22:47+00:00",
+     "thumb": "https://i3.ytimg.com/vi/FlQ6lyGasgI/hqdefault.jpg",
+     "views": 0
+    },
     {
      "title": "What's Inside a Black Hole? — The Truth Beyond the Event Horizon",
      "link": "https://www.youtube.com/shorts/8oARH5K9VEc",
@@ -609,17 +616,10 @@
      "link": "https://www.youtube.com/shorts/b32vvAqo3w4",
      "published": "2026-11-11T14:26:19+00:00",
      "thumb": "https://i3.ytimg.com/vi/b32vvAqo3w4/hqdefault.jpg",
-     "views": 0
-    },
-    {
-     "title": "Dunning-Kruger Effect — Why Beginners Feel Like Experts",
-     "link": "https://www.youtube.com/shorts/_CrP5zUo5Yk",
-     "published": "2026-11-10T19:14:55+00:00",
-     "thumb": "https://i4.ytimg.com/vi/_CrP5zUo5Yk/hqdefault.jpg",
-     "views": 5
+     "views": 3
     }
    ],
-   "fetchedAt": 1795008508839
+   "fetchedAt": 1795094921298
   }
  }
 }
